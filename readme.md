@@ -1,5 +1,9 @@
-TBD
+# [LiveStore](https://github.com/livestorejs) Application
 
-- `devbox services up caddy` or `caddy run` (in the root of the repository)
+This repository contains a newly scaffolded LiveStore application.
 
-- `favicon` -> LiveStore logo
+```sh
+devbox shell
+```
+
+Open your browser and point it to https://localhost
