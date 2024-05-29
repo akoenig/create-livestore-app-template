@@ -10,9 +10,14 @@
   },
   "shell": {
     "init_hook": [
-      "pnpm install",
-      "devbox services up caddy --background",
-      "pnpm run dev"
-    ]
+      "pnpm install"
+    ],
+    "scripts": {
+      "dev": [
+        "caddy trust",
+        "devbox services up --background",
+        "pnpm run dev"
+      ]
+    }
   }
 }
