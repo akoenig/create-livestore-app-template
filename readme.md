@@ -4,7 +4,7 @@ This repository contains a newly scaffolded LiveStore application.
 
 ## Development
 
-LiveStore persists data in SQLite on the user's device in the [OPFS](https://developer.mozilla.org/en-US/docs/Web/API/File_System_API/Origin_private_file_system) (Origin private file system). OPFS is only available in secure contexts via HTTPS which makes it mandatory that even during development you need a valid HTTPS certificate.
+LiveStore persists data in SQLite on the user's device in the [OPFS](https://developer.mozilla.org/en-US/docs/Web/API/File_System_API/Origin_private_file_system) (Origin private file system). OPFS is only available in secure contexts via HTTPS which makes it mandatory that, even during development, you have a valid HTTPS certificate.
 
 That said, a reverse proxy is required. We use [Caddy](https://caddyserver.com/) for that. The following describes the steps you have to perform in order to start the application locally.
 
@@ -51,4 +51,4 @@ In another shell session:
 pnpm run dev
 ```
 
-Now everything is running and you can point your browser to https://localhost
+Now everything is running, and you can point your browser to https://localhost
