@@ -2,8 +2,7 @@
   "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.10.7/.schema/devbox.schema.json",
   "packages": [
     "caddy@2",
-    "nodejs@22",
-    "nss@3.90.2"
+    "nodejs@22"
   ],
   "env": {
     "DEVBOX_COREPACK_ENABLED": "true",
