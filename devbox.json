@@ -2,20 +2,22 @@
   "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.10.7/.schema/devbox.schema.json",
   "packages": [
     "caddy@2",
-    "nodejs@22"
+    "nodejs@22",
+    "nss@3.90.2"
   ],
   "env": {
-    "CADDY_CONFIG": "./Caddyfile",
-    "DEVBOX_COREPACK_ENABLED": "true"
+    "DEVBOX_COREPACK_ENABLED": "true",
+    "CADDY_CONFIG":            "./Caddyfile"
   },
   "shell": {
     "init_hook": [
-      "pnpm install"
+      "pnpm install",
+      "devbox services up caddy --background",
+      "sleep 5"
     ],
     "scripts": {
       "dev": [
         "caddy trust",
-        "devbox services up --background",
         "pnpm run dev"
       ]
     }

@@ -1,4 +1,8 @@
+{
+	skip_install_trust
+}
+
 localhost:443 {
-    tls internal
-    reverse_proxy /* http://localhost:5173
+	tls internal
+	reverse_proxy /* http://localhost:5173
 }

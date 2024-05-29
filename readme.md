@@ -11,8 +11,6 @@ That said, a reverse proxy is required. We use [Caddy](https://caddyserver.com/)
 You can utilize [Devbox](https://www.jetify.com/devbox) – a tool for creating isolated development environments:
 
 ```sh
-devbox shell
-
 devbox run dev
 ```
 
