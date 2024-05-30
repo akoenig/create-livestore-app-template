@@ -14,12 +14,22 @@ You can utilize [Devbox](https://www.jetify.com/devbox) – a tool for creating
 devbox run dev
 ```
 
+or alternatively:
+
+```sh
+# Prepares the isolated dev environment (starts Caddy, etc.)
+devbox shell
+
+# Starts the app locally
+pnpm run dev
+```
+
 This does the following:
 
 1. Creates an isolated development environment with all required tools set up: [Node.js](https://nodejs.org/en), [pnpm](https://pnpm.io/) and [Caddy](https://caddyserver.com/).
 2. Installs all required dependencies via `pnpm`.
-3. Performs a `caddy trust` which installs the Caddy CA to your local keychain (so that your browsers won't complain about the self-signed certificate). This will ask for your password. No worries, this is required for writing the CA into your local keychain.
-4. Start the reverse proxy in the background.
+3. Start the reverse proxy (Caddy) in the background.
+4. Performs a `caddy trust` which installs the Caddy CA to your local keychain (so that your browsers won't complain about the self-signed certificate). This will ask for your password. No worries, this is required for writing the CA into your local keychain.
 5. Starts the LiveStore app via `pnpm run dev`.
 
 Now point your browser to https://localhost and interact with your application.
