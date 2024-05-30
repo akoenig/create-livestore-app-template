@@ -24,6 +24,10 @@ devbox shell
 pnpm run dev
 ```
 
+Now point your browser to https://localhost and interact with your application.
+
+**Important:** Please ignore the URL vite shows (`:5173`) as this is the one of the app without the reverse proxy. The app won't work when you use it!
+
 This does the following:
 
 1. Creates an isolated development environment with all required tools set up: [Node.js](https://nodejs.org/en), [pnpm](https://pnpm.io/) and [Caddy](https://caddyserver.com/).
@@ -32,7 +36,6 @@ This does the following:
 4. Performs a `caddy trust` which installs the Caddy CA to your local keychain (so that your browsers won't complain about the self-signed certificate). This will ask for your password. No worries, this is required for writing the CA into your local keychain.
 5. Starts the LiveStore app via `pnpm run dev`.
 
-Now point your browser to https://localhost and interact with your application.
 
 ### The manual approach (without Devbox)
 
