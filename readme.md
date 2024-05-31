@@ -20,6 +20,9 @@ or alternatively:
 # Prepares the isolated dev environment (starts Caddy, etc.)
 devbox shell
 
+# (only on initial setup): Adding CA to your local keychain
+caddy trust
+
 # Starts the app locally
 pnpm run dev
 ```
