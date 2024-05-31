@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@effect/schema':
         specifier: 0.67.0
-        version: 0.67.0(effect@3.2.5)
+        version: 0.67.0(effect@3.2.6)
       '@livestore/devtools-react':
         specifier: ^0.0.47
         version: 0.0.47(@livestore/livestore@0.0.47(@opentelemetry/resources@1.24.1(@opentelemetry/api@1.8.0))(@opentelemetry/sdk-metrics@1.24.1(@opentelemetry/api@1.8.0))(@opentelemetry/sdk-trace-base@1.24.1(@opentelemetry/api@1.8.0))(@opentelemetry/semantic-conventions@1.24.1)(fast-check@3.19.0)(graphql@16.8.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(ws@8.17.0))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -22,7 +22,7 @@ importers:
         version: 0.0.47(@opentelemetry/resources@1.24.1(@opentelemetry/api@1.8.0))(@opentelemetry/sdk-metrics@1.24.1(@opentelemetry/api@1.8.0))(@opentelemetry/sdk-trace-base@1.24.1(@opentelemetry/api@1.8.0))(@opentelemetry/semantic-conventions@1.24.1)(fast-check@3.19.0)(ws@8.17.0)
       effect:
         specifier: ^3.2.5
-        version: 3.2.5
+        version: 3.2.6
       react:
         specifier: ^18.2.0
         version: 18.3.1
@@ -1607,8 +1607,8 @@ packages:
   effect@2.4.11:
     resolution: {integrity: sha512-BMfpWloJdV8+lVGNCesOpE6e5k27nL7F5BiWtheOEyWEQiWkM6uLK6pQ1MK9bDmFELiqe961CHFqiIY9HymLFw==}
 
-  effect@3.2.5:
-    resolution: {integrity: sha512-Qs/NAX2s/ClRATbiImc4IuzzAs+1RaFzZm7zRx9NKmLFnIeCC+h2LwkrOuprG3PsDM+g1IfPEFWvVbTSDKPnFA==}
+  effect@3.2.6:
+    resolution: {integrity: sha512-0DMjunl0BgBBcn0g5innUONI3fVz2BHLILUeemYivyStCXZl6G7rzMMiipjjFu+0oQ/FKinR+gwwAZEAvdabDw==}
 
   ejs@3.1.10:
     resolution: {integrity: sha512-UeJmFfOrAQS8OJWPZ4qtgHyWExa088/MtK5UEyoJGFH67cDEXkZSviOiKRCZ4Xij0zxI3JECgYs3oKx+AizQBA==}
@@ -3612,9 +3612,9 @@ snapshots:
       effect: 2.4.11
       fast-check: 3.19.0
 
-  '@effect/schema@0.67.0(effect@3.2.5)':
+  '@effect/schema@0.67.0(effect@3.2.6)':
     dependencies:
-      effect: 3.2.5
+      effect: 3.2.6
       fast-check: 3.19.0
 
   '@esbuild/aix-ppc64@0.20.2':
@@ -4487,7 +4487,7 @@ snapshots:
 
   effect@2.4.11: {}
 
-  effect@3.2.5: {}
+  effect@3.2.6: {}
 
   ejs@3.1.10:
     dependencies:
